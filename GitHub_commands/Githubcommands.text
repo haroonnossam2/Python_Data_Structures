@@ -1,0 +1,22 @@
+| Command         | Purpose                                     | Example                                      |
+| --------------- | ------------------------------------------- | -------------------------------------------- |
+| `git init`      | Initialize a new Git repository             | `git init`                                   |
+| `git clone`     | Copy a remote repository to local           | `git clone https://github.com/user/repo.git` |
+| `git status`    | Show current file changes and branch status | `git status`                                 |
+| `git add`       | Add files to staging area                   | `git add file.py`                            |
+| `git commit`    | Save staged changes                         | `git commit -m "Added login feature"`        |
+| `git log`       | View commit history                         | `git log`                                    |
+| `git diff`      | Show differences between changes            | `git diff`                                   |
+| `git branch`    | List or create branches                     | `git branch feature1`                        |
+| `git checkout`  | Switch branches or restore files            | `git checkout main`                          |
+| `git switch`    | Modern way to switch branches               | `git switch develop`                         |
+| `git merge`     | Merge one branch into another               | `git merge feature1`                         |
+| `git pull`      | Fetch and merge remote changes              | `git pull origin main`                       |
+| `git push`      | Upload commits to remote repository         | `git push origin main`                       |
+| `git fetch`     | Download remote updates only                | `git fetch`                                  |
+| `git remote -v` | Show connected remote repositories          | `git remote -v`                              |
+| `git rm`        | Remove tracked files                        | `git rm test.txt`                            |
+| `git mv`        | Rename or move files                        | `git mv old.py new.py`                       |
+| `git stash`     | Temporarily save uncommitted changes        | `git stash`                                  |
+| `git reset`     | Undo changes or commits                     | `git reset --soft HEAD~1`                    |
+| `git revert`    | Undo a commit safely with a new commit      | `git revert <commit-id>`                     |
